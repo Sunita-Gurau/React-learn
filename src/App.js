@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
 function App() {
+  return <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson" />;
+}
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+export default function Gallery() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      <h1>Amazing scientists</h1>
+      <App />
+      <App />
+      <App />
+    </section>
   );
 }
-
-export default App;
