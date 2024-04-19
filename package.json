@@ -13,6 +13,7 @@
   },
   "scripts": {
     "formate": "prettier --write 'src/**/*.{js,jsx}'",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +43,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5"
   }
 }
